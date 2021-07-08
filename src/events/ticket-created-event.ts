@@ -3,7 +3,7 @@ import { Subjects } from './subjects';
 export interface TicketCreatedEvent {
     subject: Subjects.TicketCreated;
     data: {
-        id: number;
+        id: string;
         title: string;
         price: number;
         userId: string;
